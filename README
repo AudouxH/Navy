@@ -1,0 +1,73 @@
+this projet name Navy is a little game which played enter two terminals.
+
+Exemple using :
+./navy position/pos1.txt (is the 1st player)
+my_pid: 4242
+waiting for enemy connection...
+
+./navy 4242 position/pos2 (is the 2nd player)
+my_pid: 4250
+successfully connected
+
+if the 1st player has connected he display : enemy connected
+
+after, the game begining and is at the 1st player to play
+
+my positions:
+ |A B C D E F G H
+-+---------------
+1|. . 2 . . . . .
+2|. . 2 . . . . .
+3|. . . . . . . .
+4|. . . 3 3 3 . .
+5|. 4 . . . . . .
+6|. 4 . . . . . .
+7|. 4 . 5 5 5 5 5
+8|. 4 . . . . . .
+
+enemy’s positions:
+ |A B C D E F G H
+-+---------------
+1|. . . . . . . .
+2|. . . . . . . .
+3|. . . . . . . .
+4|. . . . . . . .
+5|. . . . . . . .
+6|. . . . . . . .
+7|. . . . . . . .
+8|. . . . . . . .
+
+attack: B6
+B6: missed
+
+and 2nd player attack
+
+my positions:
+ |A B C D E F G H
+-+---------------
+1|. 5 5 5 5 5 . 3
+2|. . . . . . . 3
+3|. . . . . . . 3
+4|. . 2 2 . . . .
+5|. . . . . . . .
+6|. . . . 4 4 4 4
+7|. . . . . . . .
+8|. . . . . . . .
+
+enemy’s positions:
+ |A B C D E F G H
+-+---------------
+1|. . . . . . . .
+2|. . . . . . . .
+3|. . . . . . . .
+4|. . . . . . . .
+5|. . . . . . . .
+6|. . . . . . . .
+7|. . . . . . . .
+8|. . . . . . . .
+
+waiting for enemy’s attack...
+B6: missed
+
+attack: C1
+C1: hit
